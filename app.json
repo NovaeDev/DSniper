@@ -1,0 +1,20 @@
+{
+   "name": "DSniper",
+   "description": "A Discord Nitro Sniper.",
+   "repository": "https://github.com/NovaeDev/DSniper",
+   "logo": "https://i.imgur.com/tzXdjJO.png",
+   "env": {
+      "mainToken": {
+         "description": "Enter your main account's token in here. This will be used for redeeming the gift.",
+         "required": true
+      },
+      "altTokens": {
+         "description": "Enter your alt account tokens in here. Typically multiple within a lot of servers. For multiple token support, split them each with a ,",
+         "required": true
+      },
+      "webhookUrl": {
+         "description": "Optional. Enter a webhook URL that will let you know when a nitro gift has been sniped.",
+         "required": false
+      }
+   }
+}
